@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-sm" *ngFor="let element of categories"> 
+        <div class="card text-center" routerLink="1/{{element}}">
+            <div class="card-header">
+                {{element}}
+              </div>
+              <div class="card-body">
+                <img src="" alt="{{element}}">
+              </div>
+        </div>
+    </div>
+    
+</div>
